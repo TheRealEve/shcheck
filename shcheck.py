@@ -57,13 +57,15 @@ sec_headers = {
     'Public-Key-Pins': 'none',
     'Content-Security-Policy': 'warning',
     'X-Permitted-Cross-Domain-Policies': 'warning',
+    'Feature-Policy': 'warning',
     'Referrer-Policy': 'warning'
 
 }
 
 information_headers = {
     'X-Powered-By',
-    'Server'
+    'Server',
+    'AspNetCore'
 }
 
 cache_headers = {

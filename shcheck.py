@@ -206,6 +206,7 @@ def report(target, safe, unsafe):
     print("[-] There are not {} security headers".format(
         colorize(str(unsafe), 'error')))
     print()
+    print(response.getheaders())
 
 def main(options, targets):
     
